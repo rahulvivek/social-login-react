@@ -13,6 +13,7 @@ const App = () => {
                 <Navbar.Brand href="#home">Social Media Manager</Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
+                        
                         <Button onClick={() => dispatch(logout)}>Logout</Button>
                     </Navbar.Text>
                 </Navbar.Collapse>
