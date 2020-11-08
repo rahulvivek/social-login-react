@@ -28,7 +28,7 @@ const FacebookLoginPage = () => {
             <Row className="justify-content-md-center">
                 <FacebookLogin
                     textButton="LOGIN WITH FACEBOOK"
-                    appId="4655843694457351"
+                    appId="699427890695954"
                     fields="name,email,accounts"
                     scope="pages_manage_metadata"
                     callback={handleFacebookAuth}
